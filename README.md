@@ -11,13 +11,13 @@ For this workshop, you will be asked to incorporate many of the components of Bo
 Your challenge, should you choose to accept it (lol) is:
 
     Take the poorly-formatted and un-styled html that we have provided for you in this workshop
-    and use Bootstrap to turn it into a masterpiece, without using any CSS.  We will be having
-    a competition to see who can create the best website.
+    and use Bootstrap to turn it into a masterpiece, without using any CSS.
 
 In order to complete the challenge, follow these steps
 
 * [Set up Bootstrap](#setup)
 * [Create the Nav Bar](#nav-bar)
+* [Use a Jumbotron for the Header](#jumbotron)
 * [Encapsulate Content in a Grid Layout](#grid-layout)
 
 ## Setup
@@ -34,42 +34,17 @@ different classes that can be used to customize a nav bar.  To customize the nav
 incorporate Bootstrap classes into the <nav></nav> section of the HTML.  For some examples, use the
 W3Schools tutorial [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
 
+## Jumbotron
+
+Bootstrap includes a Jumbotron class that can be used to format a page header - this class is prominent
+and can be used at the top of a page.  To create the jumbotron, incorporate the Bootstrap jumbotron
+class into the div class entitled "page header"
+
 ## Grid Layout
 
 The HTML that we have provided for you is laid out vertically.  Use the Bootstrap preset grid layout to
 align the content in an arrangement that is more visually appealing.
 
-### Presentation Section
-
-~(10-15 minutes)
-
-* motivate the technology
-* show where the technology fits into the web dev process (dev tool, frontend framework, preprocessor, language etc)
-* show some use cases
-* discuss pros/cons
-
-You may use any presentation technology, although [reveal.js](https://github.com/hakimel/reveal.js) is particularly fitting as an open source javascript library, and supports code blocks. :gem:
-
-### Tutorial Section
-
-(~30 minutes)
-
-Your written tutorial document will be a walkthrough of building something using the specific web technologies.
-
-It should include:
-
-* Overview of what will be attempted
-* Any necessary setup steps
-* Step by step instructions
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
-Remember to explain any notation you are using.
-
-```javascript
-/* and use code blocks for any code! */
-```
 
 ![screen shots are helpful](img/screenshot.png)
 
