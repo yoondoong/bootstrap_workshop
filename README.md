@@ -10,33 +10,42 @@ the Bootstrap framework by using it to create a clean, responsive, and mobile fr
 For this workshop, you will be asked to incorporate many of the components of Bootstrap into a simple website.
 Your challenge, should you choose to accept it (lol) is:
 
-    Take the poorly-formatted and un-styled html that we have provided for you in this workshop
-    and use Bootstrap to turn it into a masterpiece, without using any CSS.
+*Take the poorly-formatted and un-styled html that we have provided for you in this workshop and use Bootstrap to turn it into a masterpiece, without using any CSS.*
 
 In order to complete the challenge, follow these steps
 
+* [Fork the repository](#fork)
 * [Set up Bootstrap](#setup)
 * [Create the Nav Bar](#nav-bar)
 * [Use a Jumbotron for the Header](#jumbotron)
 * [Encapsulate Content in a Grid Layout](#grid-layout)
 
+## Getting Started
+
+To start our workshop, please clone [this](URL HEREfjdklsafjldsfflkdsafjl) repository to your computer. It contains a bare-bones HTML file with content that we will be starting with. Notice how ugly it looks right now?
+
 ## Setup
 
-Setting up bootstrap is simple - all you have to do is link it into the html from a CDN.  For example,
-you can link in Bootstrap by including the following lines in the <head> of your HTML:
+Setting up Bootstrap is simple – all you have to do is link it into the html from a CDN.  For example,
+you can link in Bootstrap by including the following line in the `<head>` of your HTML:
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
 
-Also, to ensure proper rendering and touch zooming, add the following `<meta>` tag inside the `<head>` element:
+Also, to ensure proper rendering and touch zooming, add the following `<meta>` tag inside the `<head>`:
 
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
-## Nav Bar
+## Navigation Bar
 
-To get started, we will begin by setting up a simple nav-bar for the site.  Bootstrap provides many
+First, we will begin by setting up a simple nav-bar for the site.  Bootstrap provides many
 different classes that can be used to customize a nav bar.  To customize the nav bar using Bootstrap,
-incorporate Bootstrap classes into the <nav></nav> section of the HTML.  For some examples, use the
+incorporate Bootstrap classes into the `<nav></nav>` section of the HTML.  
+
+
+For some examples, use the
 W3Schools tutorial [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
+
+Add the classes `.navbar` and `.navbar-inverse` to the `<nav>` tag.
 
 ## Jumbotron
 
@@ -49,17 +58,24 @@ class into the div class entitled "page header"
 The HTML that we have provided for you is laid out vertically.  Use the Bootstrap preset grid layout to
 align the content in an arrangement that is more visually appealing.
 
+## Footer
 
-![screen shots are helpful](img/screenshot.png)
 
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
+### What you should have at this point
 
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
+Four sections, each of which should be nicely formatted and responsive
+* Navigation bar
+* Jumbotron
+* Grid layout
+* Footer
 
-### Wrap-Up Discussion Section
+Also, you should have added one extra feature on your own from the list provided above.  
 
-(~5-10 minutes)
+__Be creative!__ One of the best parts about Bootstrap is that there are an endless amount of features and classes already built-in, and extra ones are being added with every new version.
 
-* lead short discussion
-* answer questions
-* individual teams share results
+
+
+### Additional Resources
+
+* https://www.w3schools.com/bootstrap/
+* https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
