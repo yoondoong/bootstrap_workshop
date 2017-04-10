@@ -7,27 +7,25 @@ the Bootstrap framework by using it to create a clean, responsive, and mobile fr
 
 ## Workshop Overview
 
-For this workshop, you will be asked to incorporate many of the components of Bootstrap into a simple website.
-Your challenge, should you choose to accept it (lol) is:
+For this workshop, you will be asked to incorporate many of the components of Bootstrap into a simple website. Your challenge, should you choose to accept it is:
 
-*Take the poorly-formatted and un-styled html that we have provided for you in this workshop and use Bootstrap to turn it into a masterpiece, without using any CSS.*
+*Take the poorly formatted and un-styled HTML that we have provided for you in this workshop and use Bootstrap to turn it into a masterpiece, without using any CSS.*
 
-In order to complete the challenge, follow these steps
+In order to complete the challenge, follow these steps:
 
-* [Fork the repository](#fork)
-* [Set up Bootstrap](#setup)
-* [Create the Nav Bar](#nav-bar)
-* [Use a Jumbotron for the Header](#jumbotron)
-* [Encapsulate Content in a Grid Layout](#grid-layout)
+1. [Fork the repository](#fork)
+2. [Set up Bootstrap](#setup)
+3. [Create the Navigation Bar](#nav-bar)
+4. [Add a Jumbotron](#jumbotron)
+5. [Encapsulate Content in a Grid Layout](#grid-layout)
 
-## Getting Started
+## Fork
 
 To start our workshop, please clone [this](URL HEREfjdklsafjldsfflkdsafjl) repository to your computer. It contains a bare-bones HTML file with content that we will be starting with. Notice how ugly it looks right now?
 
 ## Setup
 
-Setting up Bootstrap is simple – all you have to do is link it into the html from a CDN.  For example,
-you can link in Bootstrap by including the following line in the `<head>` of your HTML:
+Setting up Bootstrap is simple – all you have to do is link it into the html from a CDN.  For example, you can link in Bootstrap by including the following line in the `<head>` of your HTML:
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
 
@@ -39,19 +37,33 @@ Also, to ensure proper rendering and touch zooming, add the following `<meta>` t
 
 First, we will begin by setting up a simple nav-bar for the site.  Bootstrap provides many
 different classes that can be used to customize a nav bar.  To customize the nav bar using Bootstrap,
-incorporate Bootstrap classes into the `<nav></nav>` section of the HTML.  
+incorporate Bootstrap classes into the `<nav>` section of the HTML.  
 
 
-For some examples, use the
-W3Schools tutorial [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
+To add a standard nav-bar, use `<nav class="navbar navbar-default">`.
 
-Add the classes `.navbar` and `.navbar-inverse` to the `<nav>` tag.
+Next, within the nav element, add the `container-fluid` class to the div – this class creates a full width container, spanning the entire width of your viewport.
+
+To make the title of the website a header, add the `navbar-header` class to the "Dartmouth CS Survival Guide" div and `navbar-brand` to the anchor tag. This will give the text a slightly larger size.
+
+To add links to the navbar, simply add to _both_ unordered list tags the classes `nav navbar-nav`.
+
+At this point, it should look miles better already! All just by adding a few simple classes to your HTML. But let's make it a little better.
+
+Often times, you want to align specific parts of the navbar to the left or right. Let's do that here. Add the `navbar-right` class to the unordered list tag containing the "Sign Up" and "Login" items.
+
+To indicate that the Home page is the page we are currently on, add the `active` class to Home's list item element.
+
+As a final touch, add icons to the two right items. Inside these two list item tags, add `<span class="glyphicon glyphicon-user"></span> ` (note the space) and `<span class="glyphicon glyphicon-log-in"></span> `, respectively.
+
+And that's it! Note that many variations of this exist, such as `navbar-inverse` instead of `navbar-default` to invert the colors, or `navbar-fixed-top` to pin to the top even when scrolling (try it out).
+
+For more complex Bootstrap navigation bar examples, see the
+[W3Schools tutorial](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
 
 ## Jumbotron
 
-Bootstrap includes a Jumbotron class that can be used to format a page header - this class is prominent
-and can be used at the top of a page.  To create the jumbotron, incorporate the Bootstrap jumbotron
-class into the div class entitled "page header"
+A jumbotron indicates a big box for calling extra attention to some special content or information. To create a jumbotron in Bootstrap, incorporate the Bootstrap `jumbotron` class into the `div class="page header"`.
 
 ## Grid Layout
 
@@ -60,6 +72,7 @@ align the content in an arrangement that is more visually appealing.
 
 ## Footer
 
+Placeholder
 
 ### What you should have at this point
 
