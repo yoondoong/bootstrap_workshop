@@ -2,22 +2,31 @@
 
 ![](http://jpcamara.com/wp-content/uploads/2015/02/Bootstrap-Delay.gif)
 
-Each workshop session will be ~60 minutes on a web technology, tool, framework, or concept. It will consist of both a short presentation as well as a tutorial. The tutorial will be a written online document in the form of a [markdown](https://guides.github.com/features/mastering-markdown/) readme file in a git repo — you can start by forking this very repo. During the tutorial section the class will work in teams of 3 following along with the instructions in the document. The team presenting will answer questions and help the individual teams along.
-
+Welcome to the CS52 workshop session on Bootstrap.  During this workshop, you will learn the basics of using
+the Bootstrap framework by using it to create a clean, responsive, and mobile friendly web page.
 
 ## Workshop Overview
+
+For this workshop, you will be asked to incorporate many of the components of Bootstrap into a simple website.
+Your challenge, should you choose to accept it (lol) is:
+
+    Take the poorly-formatted and un-styled html that we have provided for you in this workshop
+    and use Bootstrap to turn it into a masterpiece, without using any CSS.
+
+In order to complete the challenge, follow these steps
+
+* [Set up Bootstrap](#setup)
 
 * [10-15 Minute Intro Presentation](#presentation-section)
 * [30 Minute Tutorial](#tutorial-section)
 * [5-10 Minute Wrap-Up Discussion](#wrap-up-discussion-section)
 
-## Teams
-
-Teams of ~5 will be formed around dates and a set of potential topics. Your and your team may chose 1 or 2 technologies from the list or may suggest alternative related technologies/topics.
-
 ## Setup
 
-If your tutorial requires any lengthy download or install procedures please let the class know at least 2 days in advance.
+Setting up bootstrap is simple - all you have to do is link it into the html from a CDN.  For example,
+you can link in Bootstrap by including the following lines in the <head> of your HTML:
+
+![](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjencmWhpnTAhUMySYKHZB4AWQQjRwIBw&url=https%3A%2F%2Fonlineacademiccommunity.uvic.ca%2Fshauer%2Fusing-bootstrap-cdn%2F&psig=AFQjCNG---ebnVTNW1imNoa2E_Mxij4A_A&ust=1491884816717631)
 
 ## Details
 
