@@ -11,15 +11,14 @@ For this workshop, you will be asked to incorporate many of the components of Bo
 Your challenge, should you choose to accept it (lol) is:
 
     Take the poorly-formatted and un-styled html that we have provided for you in this workshop
-    and use Bootstrap to turn it into a masterpiece, without using any CSS.
+    and use Bootstrap to turn it into a masterpiece, without using any CSS.  We will be having
+    a competition to see who can create the best website.
 
 In order to complete the challenge, follow these steps
 
 * [Set up Bootstrap](#setup)
-
-* [10-15 Minute Intro Presentation](#presentation-section)
-* [30 Minute Tutorial](#tutorial-section)
-* [5-10 Minute Wrap-Up Discussion](#wrap-up-discussion-section)
+* [Create the Nav Bar](#nav-bar)
+* [Encapsulate Content in a Grid Layout](#grid-layout)
 
 ## Setup
 
@@ -28,8 +27,17 @@ you can link in Bootstrap by including the following lines in the <head> of your
 
 ![](https://onlineacademiccommunity.uvic.ca/shauer/wp-content/uploads/sites/1083/2015/04/cdn_gspage.jpg)
 
-## Details
+## Nav Bar
 
+To get started, we will begin by setting up a simple nav-bar for the site.  Bootstrap provides many
+different classes that can be used to customize a nav bar.  To customize the nav bar using Bootstrap,
+incorporate Bootstrap classes into the <nav></nav> section of the HTML.  For some examples, use the
+W3Schools tutorial [here](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
+
+## Grid Layout
+
+The HTML that we have provided for you is laid out vertically.  Use the Bootstrap preset grid layout to
+align the content in an arrangement that is more visually appealing.
 
 ### Presentation Section
 
