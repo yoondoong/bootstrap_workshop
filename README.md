@@ -25,7 +25,11 @@ In order to complete the challenge, follow these steps
 Setting up bootstrap is simple - all you have to do is link it into the html from a CDN.  For example,
 you can link in Bootstrap by including the following lines in the <head> of your HTML:
 
-![](https://onlineacademiccommunity.uvic.ca/shauer/wp-content/uploads/sites/1083/2015/04/cdn_gspage.jpg)
+`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
+
+Also, to ensure proper rendering and touch zooming, add the following `<meta>` tag inside the `<head>` element:
+
+`<meta name="viewport" content="width=device-width, initial-scale=1">`
 
 ## Nav Bar
 
