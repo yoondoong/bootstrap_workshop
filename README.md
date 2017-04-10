@@ -26,7 +26,7 @@ In order to complete the challenge, follow these steps
 Setting up bootstrap is simple - all you have to do is link it into the html from a CDN.  For example,
 you can link in Bootstrap by including the following lines in the <head> of your HTML:
 
-![](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjencmWhpnTAhUMySYKHZB4AWQQjRwIBw&url=https%3A%2F%2Fonlineacademiccommunity.uvic.ca%2Fshauer%2Fusing-bootstrap-cdn%2F&psig=AFQjCNG---ebnVTNW1imNoa2E_Mxij4A_A&ust=1491884816717631)
+![](http://jpcamara.com/wp-content/uploads/2015/02/Bootstrap-Delay.gif)
 
 ## Details
 
