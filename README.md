@@ -120,7 +120,7 @@ __*Now, to complete the Bootstrap workshop, add one extra feature on your own. W
 
 __Be creative!__ One of the best parts about Bootstrap is that there are an endless amount of features and classes already built-in, and extra ones are being added with every new version.
 
-
+We hope this workshop has demonstrated to you the power of Bootstrap. Without any CSS you quickly applied a basic format and style to plain HTML; keep in mind that although there is a still a lot of work left to be done on this page, having Bootstrap handle so much of the initial styling makes adding in your own customized CSS on top even less painful!
 
 ## Additional Resources
 
