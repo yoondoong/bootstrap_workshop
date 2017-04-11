@@ -54,7 +54,10 @@ Often times, you want to align specific parts of the navbar to the left or right
 
 To indicate that the Home page is the page we are currently on, add the `active` class to Home's list item element.
 
-As a final touch, add icons to the two right items. Inside these two list item tags, add `<span class="glyphicon glyphicon-user"></span> ` (note the space) and `<span class="glyphicon glyphicon-log-in"></span> `, respectively.
+Now, let's make this nav-bar responsive. We will make the navigation bar  hidden on small screens and replaced by a button in the top right corner.
+
+
+As a final touch, add icons to the two right items. Inside these two list item tags, add `<span class="glyphicon glyphicon-user"></span> ` and `<span class="glyphicon glyphicon-log-in"></span> ` (note the spaces), respectively.
 
 And that's it! Note that many variations of this exist, such as `navbar-inverse` instead of `navbar-default` to invert the colors, or `navbar-fixed-top` to pin to the top even when scrolling (try it out).
 
