@@ -21,7 +21,7 @@ In order to complete the challenge, follow these steps:
 
 ## Fork
 
-To start our workshop, please clone [this](URL HEREfjdklsafjldsfflkdsafjl) repository to your computer. It contains a bare-bones HTML file with content that we will be starting with. Notice how ugly it looks right now?
+To start our workshop, please clone [this](https://github.com/jgualtieri/workshop) repository to your computer. It contains a bare-bones HTML file with content that we will be starting with. Open it up – notice how ugly it looks right now?
 
 ## Setup
 
@@ -29,16 +29,21 @@ Setting up Bootstrap is simple – all you have to do is link it into the html f
 
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
 
+Also add these scripts to the very end of your `<body>` (only necessary for certain mobile responsive features):
+
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>`
+
+`<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>`
+
 Also, to ensure proper rendering and touch zooming, add the following `<meta>` tag inside the `<head>`:
 
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
 ## Navigation Bar
 
-First, we will begin by setting up a simple nav-bar for the site.  Bootstrap provides many
-different classes that can be used to customize a nav bar.  To customize the nav bar using Bootstrap,
-incorporate Bootstrap classes into the `<nav>` section of the HTML.  
+First, we will begin by setting up a simple nav-bar for the site. Bootstrap provides many different classes that can be used to customize a nav bar.
 
+To customize the nav bar using Bootstrap, we will incorporate Bootstrap classes into the `<nav>` section of the HTML.  
 
 To add a standard nav-bar, use `<nav class="navbar navbar-default">`.
 
@@ -56,8 +61,18 @@ To indicate that the Home page is the page we are currently on, add the `active`
 
 Now, let's make this nav-bar responsive. We will make the navigation bar  hidden on small screens and replaced by a button in the top right corner.
 
+The first step to adding this is to add the button itself. Add a `button` tag inside the `navbar-header` div, with the following attributes:
+* type: button
+* class: navbar-toggle
+* data-toggle: collapse
 
-As a final touch, add icons to the two right items. Inside these two list item tags, add `<span class="glyphicon glyphicon-user"></span> ` and `<span class="glyphicon glyphicon-log-in"></span> ` (note the spaces), respectively.
+For the actual display button, create a "hamburger" button using the `.icon-bar` class. Inside the button tag, add between 1-4 copies of `<span class = "icon-bar"></span>`, whatever you like.
+
+Now, the content that you want to actually be collapsed when the screen is narrow needs to be wrapped in a `<div>` with classes `collapse` and `navbar-collapse`. For example, if you want to remove everything except for the header, wrap the two unordered lists in a div with those classes.
+
+Lastly, to connect the hamburger button to the collapsing content, add and match the `data-target` attribute of your button to the `id` of your collapsing div. For those of you who completed the CSS Checkbox Hack for Lab 1, this step is similar to linking the `input` and `label` elements. Just like that, you have a responsive menu navigation bar!
+
+As a final touch, add icons to the two right items. Inside these two list item tags and within the anchor tags, add `<span class="glyphicon glyphicon-user"></span>&nbsp;` and `<span class="glyphicon glyphicon-log-in"></span>&nbsp;` (note the space codes separating the icon and the following text), respectively.
 
 And that's it! Note that many variations of this exist, such as `navbar-inverse` instead of `navbar-default` to invert the colors, or `navbar-fixed-top` to pin to the top even when scrolling (try it out).
 
@@ -70,14 +85,13 @@ A jumbotron indicates a big box for calling extra attention to some special cont
 
 ## Grid Layout
 
-The HTML that we have provided for you is laid out vertically.  Use the Bootstrap preset grid layout to
-align the content in an arrangement that is more visually appealing.
+The HTML that we have provided for you is laid out vertically. Use the Bootstrap preset grid layout to align the content in an arrangement that is more visually appealing.
 
 ## Footer
 
 Placeholder
 
-### What you should have at this point
+## What you should have at this point
 
 Four sections, each of which should be nicely formatted and responsive
 * Navigation bar
@@ -91,7 +105,7 @@ __Be creative!__ One of the best parts about Bootstrap is that there are an endl
 
 
 
-### Additional Resources
+## Additional Resources
 
 * https://www.w3schools.com/bootstrap/
 * https://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know
