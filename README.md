@@ -92,7 +92,40 @@ To ensure that the jumbotron doesn't extend to the edge of the screen, you can p
 
 ## Grid Layout
 
-The HTML that we have provided for you is laid out vertically. Use the Bootstrap preset grid layout to align the content in an arrangement that is more visually appealing.
+Now that you have formatted the navbar and the jumbotron to look nicely, it's time to format the content of the web page.  In the class labeled `grid_layout`, we have provided you with some content to be formatted using the grid layout.  Feel free to edit the content as you wish, but the main focus here should be formatting it.
+
+To begin, change the class to be titled `container_fluid`.  As mentioned in the navbar section, this class creates a full width container spanning the entire width of the viewport - this is used to encapsulate the content.
+
+Now that you have the content encapsulated in a container, you can begin using the grid layout to format the content.  The basic structure of the grid layout is a series of rows that are separated into columns.  Each row can be divided into at the most twelve columns or at the least two columns.  Inside of the columns will be your desired content.  This is obviously vague, so here is an example of how this works:
+
+![Grid Layout](images/grid_layout.png)
+
+The HTML to create a row and divide it into three equal length columns would look as follows:
+
+```
+<div class="row">
+    <div class="col-md-4">YOUR CONTENT HERE</div>
+    <div class="col-md-4">YOUR CONTENT HERE</div>
+    <div class="col-md-4">YOUR CONTENT HERE</div>
+</div>
+```
+
+Notice the class that we used for the column is titled "col-md-4".  Bootstrap provides four different widths of columns, "xs" for mobile phones, "sm" for tablets, "md" for desktops, and "lg" for extended desktops.  For the purposes of this tutorial, it is probably best to use "col-md-*".
+
+It is up to you to decide on how you would like to format the content we have provided into a grid layout.  For instance, you could put each `<h3>` and `<p>` in a row in equal width columns, like such:
+
+```
+<div class="row">
+    <div class="col-md-6">
+        <h3>Header Content</h3>
+    </div>
+    <div class="col-md-6">
+        <p>Paragraph Content</p>
+    </div>
+</div>
+```
+
+Or, you could put two header and content pairs per row, and so on - again, it is up to you to decide which layout looks the best.
 
 ## Footer
 
@@ -110,12 +143,15 @@ Four sections, each of which should be nicely formatted and responsive
 * Grid layout
 * Footer
 
-__*Now, to complete the Bootstrap workshop, add one extra feature on your own. We have a few suggestions below, but feel free to pick something not listed if you wish:*__
+__*Now, to complete the Bootstrap workshop, add TWO extra features on your own. We have a few suggestions below, but feel free to pick something not listed if you wish:*__
 
 1. Tabs/Pills
 2. Modals
-3. Carousels
-4. Scrollspy (advanced)
+3. Buttons
+4. Dropdown menu in the navbar
+5. Incorporate some of Bootstrap's unique typography
+6. Carousels (advanced – counts as two)
+7. Scrollspy (advanced – counts as two)
 
 
 __Be creative!__ One of the best parts about Bootstrap is that there are an endless amount of features and classes already built-in, and extra ones are being added with every new version.
